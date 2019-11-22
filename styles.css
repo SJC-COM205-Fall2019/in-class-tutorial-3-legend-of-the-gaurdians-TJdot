@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap');
+body {
+	padding: 0;
+	margin: 0;
+	color: #000000;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #000000;
+}
+.page-container {
+	margin: 0 auto;
+	width: 900px;
+	background-color: #BDA188;
+}
+.content-container {
+	padding: 15px;
+	width: 540px;
+	float: left;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #563A2A;
+	text-transform: lowercase;
+	margin: 0, 0, 18, 0;
+	font-family: 'Marcellus SC', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	padding-top: 22px;
+	padding-bottom: 18px;
+
+}
+
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #563A2A;
+	text-transform: lowercase;
+	margin: 0;
+	font-family: 'Marcellus SC', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	padding-top: 22px;
+	padding-bottom: 18px;
+}
+
+
+main {
+	padding: 0 15px;
+	overflow: auto;
+	
+}
+nav ul li a:hover {
+	color: #FFFFFF;
+}
+
+.sidebar {
+	padding: 0 15px;
+	float: left;
+	width: 270px;
+}
+footer {
+	margin-top: 0px;
+	margin-left: 30px;
+	padding: 12px 0;
+	margin-right: 30px;
+	width: auto;
+	border-top: 1px solid #765132;
+	clear: both;
+}
+nav {
+	background-color: #413615;
+	background-image: url(images/nav_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 48px;
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+	width: 180px;
+	text-align: center;
+}
+nav ul li a {
+	padding: 0;
+	line-height: 48px;
+	display: block;
+	text-decoration: none;
+	color: #CCCC99;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'Marcellus SC', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+header {
+	padding: 0;
+	margin: 0;
+	height: 536px;
+}
+.gallery {
+	list-style-type: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 0;
+	background-color: #DD0F12;
+}
+.gallery li {
+	float: left;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	padding-top: 9px;
+	padding-bottom: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.image-border {
+	border: 5px solid #765132;
+}
